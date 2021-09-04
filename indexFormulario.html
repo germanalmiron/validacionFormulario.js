@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormularioValidación</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <form id="frmClave">
+        <fieldset>
+            <h2>FORMULARIO PARA GENERACIÓN DE CLAVE</h2>
+            <div>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" placeholder="Ingrese un Nombre">
+            </div>
+            <div>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" placeholder="Ingrese un Apellido">
+            </div>
+            <div>
+                <label for="dni">Dni:</label>
+                <input type="text" id="dni" placeholder="Ingrese un dni">
+            </div>
+            <div>
+                <label for="fecha">Fecha de nacimiento:</label>
+                <input type="text" id="fecha" placeholder="dd-mm-aa">
+            </div>
+
+            <div>
+                <input id="btnenviar" type="submit" value="Generar clave">
+            </div>
+
+        </fieldset>
+
+    </form>
+        <div id="respuesta"></div>
+
+    <script src="./generarClave.js"></script>
+</body>
+
+</html>
